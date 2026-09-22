@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>گروه ساختمانی سعدآباد | ساختمان‌سازی با اصالت ایرانی</title>
+  <meta name="description" content="گروه ساختمانی سعدآباد؛ سازنده برج‌های مسکونی، مجتمع‌های تجاری و ویلاهای لوکس با کیفیت ماندگار و تحویل به‌موقع.">
+  <meta name="theme-color" content="#1A110A">
+
+  <!-- 📲 پیش‌نمایش هنگام اشتراک لینک در واتساپ/تلگرام -->
+  <meta property="og:title" content="گروه ساختمانی سعدآباد">
+  <meta property="og:description" content="ساختمان‌سازی با اصالت ایرانی — از فونداسیون تا کلید تحویل. مثل البرز استوار، مثل فرش ایرانی ظریف.">
+  <meta property="og:type" content="website">
+  <!-- ✏️ بعد از آپلود سایت، آدرس کامل یک عکس کاور را اینجا بگذارید -->
+  <meta property="og:image" content="images/og-cover.jpg">
+
+  <!-- 🏗 لوگوی برجی شرکت — بازسازی وفادار به لوگوی اصلی -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%230D0B08'/><g fill='%23F0964B'><path d='M13 47V28q0-6 8-10v24q-4 7-8 5z'/><path d='M32 5l4 7v31q-4 7-8 0V12z'/><path d='M51 47V28q0-6-8-10v24q4 7 8 5z'/></g></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}.hero-content>*{opacity:1!important}.intro{display:none!important}</style></noscript>
+</head>
+<body class="loading">
+
+<!-- 📊 نوار پیشرفت اسکرول -->
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- 🎬 اینترو: لوگوی درخشان (فقط بار اول کامل نمایش داده می‌شود) -->
+<div class="intro" id="intro">
+  <div class="intro-logo" id="introLogo">
+    <svg width="150" height="150" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#0D0B08"/><g fill="#F0964B"><path d="M13 47V28q0-6 8-10v24q-4 7-8 5z"/><path d="M32 5l4 7v31q-4 7-8 0V12z"/><path d="M51 47V28q0-6-8-10v24q4 7 8 5z"/></g></svg>
+    <span class="intro-name">سعدآباد</span>
+    <small>SAAD ABAD GROUP</small>
+  </div>
+  <p class="intro-hint">برای رد کردن، کلیک کنید</p>
+</div>
+
+<!-- 🧭 منوی سایت -->
+<nav class="navbar">
+  <div class="container nav-container">
+    <a href="#home" class="logo">
+      <svg width="46" height="46" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#0D0B08"/><g fill="#F0964B"><path d="M13 47V28q0-6 8-10v24q-4 7-8 5z"/><path d="M32 5l4 7v31q-4 7-8 0V12z"/><path d="M51 47V28q0-6-8-10v24q4 7 8 5z"/></g></svg>
+      <span class="logo-text">سعدآباد<small>SAAD ABAD GROUP</small></span>
+    </a>
+    <ul class="nav-menu">
+      <li><a href="#home" class="active">خانه</a></li>
+      <li><a href="#about">درباره ما</a></li>
+      <li><a href="#projects">پروژه‌ها</a></li>
+      <li><a href="#ongoing">در حال ساخت</a></li>
+      <li><a href="#advantages">مزایای ما</a></li>
+      <li><a href="#contact">تماس با ما</a></li>
+    </ul>
+    <button class="hamburger" aria-label="باز کردن منو">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- 🏠 بخش اصلی — گره‌چینی + هاله‌ها + ذرات -->
+<header id="home" class="hero">
+  <div class="hero-pattern" aria-hidden="true"></div>
+  <div class="orbs" aria-hidden="true">
+    <span class="orb o1"></span>
+    <span class="orb o2"></span>
+  </div>
+  <div class="particles" id="heroParticles" aria-hidden="true"></div>
+
+  <div class="container hero-content">
+    <span class="hero-badge">🏗️ ساختمان‌سازی با اصالت ایرانی</span>
+    <h1>گروه ساختمانی <span class="grad-text">سعدآباد</span></h1>
+    <p class="hero-sub">از فونداسیون تا کلید تحویل؛ ساختمان‌هایی می‌سازیم که ماندگارند.
+      تلفیق هنر معماری ایرانی با استانداردهای روز دنیا.<br>
+      <span class="hero-poem">✦ مثل البرز استوار، مثل فرش ایرانی ظریف، مثل سعدآباد ماندگار ✦</span></p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary">مشاهده پروژه‌ها</a>
+      <a href="#contact" class="btn btn-outline">مشاوره رایگان</a>
+    </div>
+  </div>
+  <a href="#about" class="scroll-down" aria-label="برو پایین">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+  </a>
+</header>
+
+<!-- 👥 درباره ما — قاب طاقی گنبدی -->
+<section id="about" class="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-media reveal">
+        <div class="img-frame">
+          <div class="ph">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4M9 9h.01M15 9h.01M9 13h.01M15 13h.01"/></svg>
+            <p>جای عکس پروژه شاخص شرکت</p>
+          </div>
+          <!-- ✏️ وقتی عکس آماده شد، این خط را داخل img-frame و بعد از باکس ph اضافه کنید:
+          <img src="images/about.jpg" alt="پروژه شاخص سعدآباد" loading="lazy" onerror="this.classList.add('img-failed')">
+          -->
+        </div>
+        <div class="exp-badge"><strong>۱۲+</strong><span>سال تجربه</span></div>
+      </div>
+      <div class="about-text">
+        <span class="eyebrow">درباره ما</span>
+        <h2 class="section-title">داستان <span class="grad-green">سعدآباد</span></h2>
+        <div class="divider start"></div>
+        <p>گروه ساختمانی سعدآباد با بیش از یک دهه تجربه در زمینه طراحی، ساخت و مشارکت در ساخت، در کنار شماست تا ساختمانی بسازد که ارزشی ماندگار برای نسل‌ها داشته باشد. ما باور داریم ساختمان فقط دیوار و سقف نیست؛ جایی است که زندگی در آن جریان دارد.</p>
+        <p>تیم ما از مهندسان مجرب، معماران خلاق و پیمانکاران متعهد تشکیل شده که از مرحله نقشه و مجوز تا نازک‌کاری و تحویل نهایی، در کنار شما هستند.</p>
+        <ul class="checklist">
+          <li>اجرای پروژه به‌صورت کلید تحویل</li>
+          <li>استفاده از مصالح استاندارد و برندهای معتبر</li>
+          <li>نظارت مستمر مهندسین ناظر</li>
+          <li>تحویل به‌موقع با قرارداد شفاف</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">درخواست مشاوره</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 🇮🇷 اصالت ایرانی — ذرات نور -->
+<section id="heritage" class="heritage">
+  <div class="particles" id="heritageParticles" aria-hidden="true"></div>
+  <span class="orb o3" aria-hidden="true"></span>
+
+  <div class="container">
+    <div class="section-head light reveal">
+      <span class="eyebrow gold">هویت ما</span>
+      <h2 class="section-title">اصالتی از خاک ایران</h2>
+      <div class="divider"></div>
+      <p class="section-desc">نام «سعدآباد» یادآور کاخی است که شکوه، دقت و ماندگاری را در دل خود دارد.
+        ما همان میراث را با دست معماری امروز ادامه می‌دهیم — از ارتفاعات سرسبز مازندران تا دامنه‌های البرز.</p>
+    </div>
+
+    <div class="h-grid">
+      <div class="h-card reveal">
+        <div class="h-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 5v3H4V7l8-5zM4 10h16M6.5 10v9M10 10v9M14 10v9M17.5 10v9M3 20.5h18"/></svg></div>
+        <h3>شکوه سعدآباد</h3>
+        <p>نام ما از کاخ سعدآباد الهام گرفته است؛ جایی که هنر ایرانی و استواری به هم رسیده‌اند. ما هم ساختمان می‌سازیم تا ماندگار شود.</p>
+      </div>
+      <div class="h-card reveal" style="--d:.15s">
+        <div class="h-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 19.5L9 8l3.5 6 3-5 6 10.5z"/><path d="M2.5 19.5h19"/></svg></div>
+        <h3>استواری البرز</h3>
+        <p>ساختمان‌های ما مانند رشته‌کوه البرز استوارند؛ فونداسیونی محکم و سازه‌ای مطمئن برای نسل‌ها.</p>
+      </div>
+      <div class="h-card reveal" style="--d:.3s">
+        <div class="h-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="2.5" width="13" height="19" rx="1.5"/><path d="M12 8l2.8 4L12 16l-2.8-4z"/><path d="M5.5 6.5h13M5.5 17.5h13"/></svg></div>
+        <h3>ظرافت فرش ایرانی</h3>
+        <p>در نازک‌کاری و جزئیات، مانند بافندگان فرش ایرانی، دقت و صبر را به خرج می‌دهیم.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 📊 آمار -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat reveal"><div class="stat-top"><span class="stat-num" data-count="12">۰</span><span class="stat-plus">+</span></div><p>سال تجربه</p></div>
+    <div class="stat reveal" style="--d:.1s"><div class="stat-top"><span class="stat-num" data-count="48">۰</span><span class="stat-plus">+</span></div><p>پروژه موفق</p></div>
+    <div class="stat reveal" style="--d:.2s"><div class="stat-top"><span class="stat-num" data-count="350">۰</span><span class="stat-plus">+</span></div><p>واحد تحویل‌شده</p></div>
+    <div class="stat reveal" style="--d:.3s"><div class="stat-top"><span class="stat-num" data-count="98">۰</span><span class="stat-plus">٪</span></div><p>رضایت مشتری</p></div>
+  </div>
+</section>
+
+<!-- 🖼️ گالری پروژه‌های تکمیل‌شده -->
+<section id="projects" class="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">گالری پروژه‌ها</span>
+      <h2 class="section-title">پروژه‌های تکمیل‌شده</h2>
+      <div class="divider"></div>
+      <p class="section-desc">نمونه‌ای از پروژه‌های تحویل‌شده که افتخار ما هستند.</p>
+    </div>
+
+    <div class="filter-btns reveal">
+      <button class="filter-btn active" data-filter="all">همه</button>
+      <button class="filter-btn" data-filter="res">مسکونی</button>
+      <button class="filter-btn" data-filter="com">تجاری</button>
+      <button class="filter-btn" data-filter="vil">ویلایی</button>
+    </div>
+
+    <div class="gallery">
+      <!-- ✏️ برای هر پروژه: عنوان، محل و توضیح را عوض کنید.
+           وقتی عکس آماده شد، داخل project-img و بعد از باکس ph اضافه کنید:
+      <img src="images/project-1.jpg" alt="نام پروژه" loading="lazy" onerror="this.classList.add('img-failed')">
+      -->
+      <article class="project-card reveal" data-cat="res">
+        <div class="project-img">
+          <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4M9 9h.01M15 9h.01"/></svg><p>جای عکس پروژه</p></div>
+          <span class="cat-badge">مسکونی</span>
+        </div>
+        <div class="project-info">
+          <h3>برج مسکونی آرمان</h3>
+          <p class="loc">📍 تهران، سعادت‌آباد</p>
+          <p class="desc">۱۸ طبقه، ۷۲ واحد لوکس با امکانات رفاهی کامل</p>
+        </div>
+      </article>
+
+      <article class="project-card reveal" data-cat="com" style="--d:.1s">
+        <div class="project-img">
+          <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4M9 9h.01M15 9h.01"/></svg><p>جای عکس پروژه</p></div>
+          <span class="cat-badge">تجاری</span>
+        </div>
+        <div class="project-info">
+          <h3>مجتمع تجاری الماس</h3>
+          <p class="loc">📍 کرج، مهرشهر</p>
+          <p class="desc">۶ طبقه تجاری با ۱۲۰ واحد فروشگاهی</p>
+        </div>
+      </article>
+
+      <article class="project-card reveal" data-cat="vil" style="--d:.2s">
+        <div class="project-img">
+          <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4M9 9h.01M15 9h.01"/></svg><p>جای عکس پروژه</p></div>
+          <span class="cat-badge">ویلایی</span>
+        </div>
+        <div class="project-info">
+          <h3>ویلاسا نارنجستان</h3>
+          <p class="loc">📍 لواسان</p>
+          <p class="desc">۱۲ ویلای دوبلکس در زمینی به مساحت ۸۰۰۰ متر</p>
+        </div>
+      </article>
+
+      <article class="project-card reveal" data-cat="res">
+        <div class="project-img">
+          <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4M9 9h.01M15 9h.01"/></svg><p>جای عکس پروژه</p></div>
+          <span class="cat-badge">مسکونی</span>
+        </div>
+        <div class="project-info">
+          <h3>مجتمع مسکونی نگین</h3>
+          <p class="loc">📍 تهران، پردیس</p>
+          <p class="desc">۱۲۰ واحد مسکونی با فضای سبز اختصاصی</p>
+        </div>
+      </article>
+
+      <article class="project-card reveal" data-cat="com" style="--d:.1s">
+        <div class="project-img">
+          <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4M9 9h.01M15 9h.01"/></svg><p>جای عکس پروژه</p></div>
+          <span class="cat-badge">تجاری</span>
+        </div>
+        <div class="project-info">
+          <h3>پاساژ ستاره</h3>
+          <p class="loc">📍 اصفهان</p>
+          <p class="desc">هایپرمارکت و ۸۰ واحد فروشگاهی در ۳ طبقه</p>
+        </div>
+      </article>
+
+      <article class="project-card reveal" data-cat="vil" style="--d:.2s">
+        <div class="project-img">
+          <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4M9 9h.01M15 9h.01"/></svg><p>جای عکس پروژه</p></div>
+          <span class="cat-badge">ویلایی</span>
+        </div>
+        <div class="project-info">
+          <h3>ویلای کوهسار</h3>
+          <p class="loc">📍 چالوس</p>
+          <p class="desc">ویلای دوبلکس مدرن با نمای سنگ تراورتن</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 🚧 پروژه‌های در حال ساخت -->
+<section id="ongoing" class="ongoing">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">پروژه‌های فعال</span>
+      <h2 class="section-title">در حال ساخت</h2>
+      <div class="divider"></div>
+      <p class="section-desc">پروژه‌هایی که همین حالا با تمام توان در حال ساختنشان هستیم.</p>
+    </div>
+
+    <div class="ongoing-grid">
+      <!-- ✏️ پیشرفت هر پروژه را در data-progress (عدد انگلیسی) و prog-num عوض کنید -->
+      <article class="ongoing-card reveal">
+        <div class="project-img">
+          <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg><p>جای عکس پروژه</p></div>
+          <span class="status-badge"><span class="pulse"></span> در حال ساخت</span>
+        </div>
+        <div class="project-info">
+          <h3>برج مسکونی آفتاب</h3>
+          <p class="loc">📍 تهران، شهرک غرب</p>
+          <div class="prog-row"><span>پیشرفت پروژه</span><strong class="prog-num">۷۵٪</strong></div>
+          <div class="progress"><div class="progress-fill" data-progress="75"></div></div>
+          <p class="deadline">🗓️ زمان تحویل: بهار ۱۴۰۵</p>
+        </div>
+      </article>
+
+      <article class="ongoing-card reveal" style="--d:.15s">
+        <div class="project-img">
+          <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg><p>جای عکس پروژه</p></div>
+          <span class="status-badge"><span class="pulse"></span> در حال ساخت</span>
+        </div>
+        <div class="project-info">
+          <h3>مجتمع تجاری-اداری نگار</h3>
+          <p class="loc">📍 تهران، جردن</p>
+          <div class="prog-row"><span>پیشرفت پروژه</span><strong class="prog-num">۴۵٪</strong></div>
+          <div class="progress"><div class="progress-fill" data-progress="45"></div></div>
+          <p class="deadline">🗓️ زمان تحویل: پاییز ۱۴۰۵</p>
+        </div>
+      </article>
+
+      <article class="ongoing-card reveal" style="--d:.3s">
+        <div class="project-img">
+          <div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg><p>جای عکس پروژه</p></div>
+          <span class="status-badge"><span class="pulse"></span> در حال ساخت</span>
+        </div>
+        <div class="project-info">
+          <h3>شهرک ویلایی زیتون</h3>
+          <p class="loc">📍 نوشهر</p>
+          <div class="prog-row"><span>پیشرفت پروژه</span><strong class="prog-num">۲۰٪</strong></div>
+          <div class="progress"><div class="progress-fill" data-progress="20"></div></div>
+          <p class="deadline">🗓️ زمان تحویل: تابستان ۱۴۰۶</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 💬 نظرات مشتریان — اعتماد، بزرگ‌ترین سرمایه -->
+<section id="testimonials" class="testimonials">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">اعتماد شما، افتخار ما</span>
+      <h2 class="section-title">نظرات مشتریان</h2>
+      <div class="divider"></div>
+      <p class="section-desc">بهترین معرف ما، کسانی هستند که کلید خانه‌شان را از ما گرفته‌اند.</p>
+    </div>
+
+    <!-- ✏️ متن نظرات و نام‌ها را با نظرات واقعی مشتریان خود عوض کنید -->
+    <div class="testi-slider reveal" id="testiSlider">
+      <div class="testi-track" id="testiTrack">
+        <div class="testi-card">
+          <div class="quote-mark">❝</div>
+          <p>از اولین جلسه تا تحویل واحد، همه‌چیز شفاف و طبق قرارداد پیش رفت. کیفیت نازک‌کاری واقعاً بالاتر از انتظارم بود؛ الان سه سال است ساکنیم و کوچک‌ترین مشکلی نداشتیم.</p>
+          <div class="testi-author"><strong>آقای محمدی</strong><span>مالک واحد، برج مسکونی آرمان</span></div>
+        </div>
+        <div class="testi-card">
+          <div class="quote-mark">❝</div>
+          <p>دغدغه‌ی همه‌ی مالکان در مشارکت در ساخت، اطمینان از وعده‌هاست. اولین بار بود که پول و وقت‌ام دقیقاً سر موعد و طبق توافق جواب داد. گزارش‌های هفتگی پیشرفت، واقعاً آرامش‌بخش بود.</p>
+          <div class="testi-author"><strong>خانم احمدی</strong><span>مالک زمین، پروژه نگار</span></div>
+        </div>
+        <div class="testi-card">
+          <div class="quote-mark">❝</div>
+          <p>به‌عنوان کسی که سال‌ها در حوزه‌ی عمران کار کرده، دقت در جزئیات اجرایی این تیم را کمتر دیده‌ام. نظارت مهندسی مستمر، در کیفیت نهایی سازه کاملاً پیدا است.</p>
+          <div class="testi-author"><strong>مهندس کریمی</strong><span>سرمایه‌گذار، مجتمع الماس</span></div>
+        </div>
+      </div>
+      <div class="testi-dots" id="testiDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ⭐ مزایا — با هاله‌های نورانی شناور -->
+<section id="advantages" class="advantages">
+  <div class="orbs" aria-hidden="true">
+    <span class="orb o4"></span>
+    <span class="orb o5"></span>
+  </div>
+  <div class="container">
+    <div class="section-head light reveal">
+      <span class="eyebrow gold">چرا سعدآباد؟</span>
+      <h2 class="section-title">مزایا و تفاوت‌های ما</h2>
+      <div class="divider"></div>
+      <p class="section-desc">چون تفاوت، در جزئیات است.</p>
+    </div>
+
+    <div class="adv-grid">
+      <div class="adv-card reveal">
+        <div class="adv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg></div>
+        <h3>کیفیت بی‌تعارض</h3>
+        <p>ساخت با بهترین مصالح و نظارت لحظه‌ای مهندسین؛ چون ساختمان، سرمایه‌ی چندنسلی شماست.</p>
+      </div>
+      <div class="adv-card reveal" style="--d:.1s">
+        <div class="adv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h3>تحویل به‌موقع</h3>
+        <p>زمان‌بندی دقیق و قرارداد شفاف؛ تحویل پروژه سر موعد، اعتبار ماست.</p>
+      </div>
+      <div class="adv-card reveal" style="--d:.2s">
+        <div class="adv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l9 5-9 5-9-5 9-5zM3 13l9 5 9-5"/></svg></div>
+        <h3>طراحی مهندسی‌شده</h3>
+        <p>معماری مدرن با رعایت اصول مهندسی و مقاوم‌سازی استاندارد.</p>
+      </div>
+      <div class="adv-card reveal">
+        <div class="adv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3>ضمانت و پشتیبانی</h3>
+        <p>۵ سال ضمانت سازه و پشتیبانی پس از تحویل؛ خیال شما همیشه راحت.</p>
+      </div>
+      <div class="adv-card reveal" style="--d:.1s">
+        <div class="adv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5M16 4.6a3.5 3.5 0 010 6.8M18.5 14.8c1.7.9 2.7 2.6 3 5.2"/></svg></div>
+        <h3>تیم متخصص</h3>
+        <p>مهندسان، معماران و مجریان با سابقه و عضو نظام مهندسی.</p>
+      </div>
+      <div class="adv-card reveal" style="--d:.2s">
+        <div class="adv-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg></div>
+        <h3>شفافیت مالی</h3>
+        <p>قرارداد شفاف بدون هزینه پنهان؛ هر ریال مستند و قابل پیگیری.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 🚀 نوار دعوت به اقدام -->
+<section class="cta-strip">
+  <div class="container cta-inner reveal">
+    <div>
+      <h2>پروژه‌ای در ذهن دارید؟</h2>
+      <p>یک جلسه مشاوره رایگان بگذارید؛ از ایده تا کلید، کنار شما هستیم.</p>
+    </div>
+    <a href="#contact" class="btn btn-gold">شروع گفتگو</a>
+  </div>
+</section>
+
+<!-- 📞 تماس با ما -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">ارتباط با ما</span>
+      <h2 class="section-title">تماس با ما</h2>
+      <div class="divider"></div>
+      <p class="section-desc">برای مشاوره رایگان، بازدید از پروژه‌ها یا همکاری با ما در ارتباط باشید.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div>
+        <!-- ✏️ اطلاعات تماس واقعی خودتان را جایگزین کنید -->
+        <div class="c-card reveal"><span class="c-icon">📍</span><div><strong>آدرس دفتر مرکزی</strong><p>تهران، خیابان ــــــــ، پلاک ــــ</p></div></div>
+        <div class="c-card reveal" style="--d:.1s"><span class="c-icon">☎️</span><div><strong>تلفن ثابت</strong><p><a dir="ltr" href="tel:+982100000000">021-00000000</a></p></div></div>
+        <div class="c-card reveal" style="--d:.2s"><span class="c-icon">📱</span><div><strong>موبایل / واتساپ</strong><p><a dir="ltr" href="tel:+989120000000">0912 000 0000</a></p></div></div>
+        <div class="c-card reveal" style="--d:.3s"><span class="c-icon">✉️</span><div><strong>ایمیل</strong><p><a href="mailto:info@saadabad.ir">info@saadabad.ir</a></p></div></div>
+        <div class="c-card reveal" style="--d:.4s"><span class="c-icon">🕘</span><div><strong>ساعت کاری</strong><p>شنبه تا پنجشنبه | ۹ صبح تا ۶ عصر</p></div></div>
+
+        <!-- ✏️ لینک شبکه‌های اجتماعی را بگذارید -->
+        <div class="socials reveal" style="--d:.5s">
+          <a class="social-btn" href="#">📷 اینستاگرام</a>
+          <a class="social-btn" href="#">✈️ تلگرام</a>
+          <a class="social-btn" href="#">💬 واتساپ</a>
+        </div>
+      </div>
+
+      <form id="contactForm" class="contact-form reveal" style="--d:.2s">
+        <h3>فرم درخواست مشاوره</h3>
+        <input type="text" required placeholder="نام و نام خانوادگی">
+        <input type="tel" placeholder="شماره تماس">
+        <textarea rows="5" required placeholder="پیام شما..."></textarea>
+        <button type="submit" class="btn btn-primary">ارسال پیام</button>
+        <p class="form-note">پیام شما به ایمیل شرکت ارسال می‌شود.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- 🧵 نوار حاشیه فرش — بالای فوتر -->
+<div class="carpet-strip" aria-hidden="true"></div>
+
+<!-- 🔻 فوتر -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#home" class="logo" style="margin-bottom:16px">
+        <svg width="42" height="42" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#0D0B08"/><g fill="#F0964B"><path d="M13 47V28q0-6 8-10v24q-4 7-8 5z"/><path d="M32 5l4 7v31q-4 7-8 0V12z"/><path d="M51 47V28q0-6-8-10v24q4 7 8 5z"/></g></svg>
+        <span class="logo-text">سعدآباد<small>SAAD ABAD GROUP</small></span>
+      </a>
+      <p>گروه ساختمانی سعدآباد؛ سازنده‌ی فضاهایی که ماندگارند. ساختمان شما، اعتبار ماست.</p>
+    </div>
+    <div>
+      <h4>دسترسی سریع</h4>
+      <ul class="footer-links">
+        <li><a href="#about">درباره ما</a></li>
+        <li><a href="#heritage">اصالت ایرانی</a></li>
+        <li><a href="#projects">پروژه‌ها</a></li>
+        <li><a href="#testimonials">نظرات مشتریان</a></li>
+        <li><a href="#contact">تماس با ما</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>اطلاعات تماس</h4>
+      <p>📍 تهران، ــــــــــــــ</p>
+      <p>☎️ <a dir="ltr" href="tel:+982100000000">021-00000000</a></p>
+      <p>✉️ <a href="mailto:info@saadabad.ir">info@saadabad.ir</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">© ۱۴۰۴ گروه ساختمانی سعدآباد — تمامی حقوق محفوظ است.</div>
+</footer>
+
+<!-- ⬆️ دکمه بازگشت به بالا -->
+<button class="to-top" id="toTop" aria-label="بازگشت به بالا">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<!-- 📞 دکمه شناور تماس سریع (✏️ شماره را با شماره خودتان عوض کنید) -->
+<a href="tel:+989120000000" class="float-call" aria-label="تماس سریع">
+  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.5 2.1L8.1 10a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.5c.9.3 1.9.6 2.9.7a2 2 0 011.6 2z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
